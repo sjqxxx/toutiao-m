@@ -67,3 +67,23 @@
 .toutiao-youjiantou:before {
   content: "\e613";
 }
+body {
+  background-color: #f5f7f9;
+}
+.login-container .page-nav-bar,
+.home-container .page-nav-bar,
+.article-container .page-nav-bar,
+.user-profile .page-nav-bar {
+  background-color: #3296fa;
+}
+.login-container .page-nav-bar .van-nav-bar__title,
+.home-container .page-nav-bar .van-nav-bar__title,
+.article-container .page-nav-bar .van-nav-bar__title,
+.user-profile .page-nav-bar .van-nav-bar__title,
+.login-container .page-nav-bar .van-icon,
+.home-container .page-nav-bar .van-icon,
+.article-container .page-nav-bar .van-icon,
+.user-profile .page-nav-bar .van-icon {
+  color: #fff;
+  max-width: unset;
+}
